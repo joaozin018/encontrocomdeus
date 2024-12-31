@@ -8,6 +8,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $telefone1 = $_POST['telefone1'];
     $telefone2 = $_POST['telefone2'];
     $pagamento = $_POST['pagamento'];
+    
+    // Adicionando um campo de e-mail no formulário HTML
+    if (isset($_POST['email'])) {
+        $email = $_POST['email'];
+    } else {
+        // Caso o campo de e-mail não exista, defina um valor padrão ou envie uma mensagem de erro
+        $email = "no-reply@dominio.com";
+    }
 
     // Configurações do e-mail
     $to = "seu-email@dominio.com";  // Substitua com seu e-mail

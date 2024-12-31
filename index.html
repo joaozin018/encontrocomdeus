@@ -11,10 +11,6 @@
 <body>
     <header>
         <div class="container">
-            <!-- Logo ou imagem do evento -->
-            <div class="logo">
-                <!-- Aqui você pode adicionar o logo -->
-            </div>
             <h1>Encontro com Deus 2K25</h1>
             <nav>
                 <ul>
@@ -32,7 +28,6 @@
         <!-- Seção sobre o evento -->
         <section id="sobre" class="info-section">
             <div class="container">
-                <!-- Imagem acima da descrição do evento -->
                 <div class="image-container">
                     <img src="encontro-com-deus-2025.jpg" alt="Imagem do Encontro com Deus 2K25">
                 </div>
@@ -45,54 +40,21 @@
         <!-- Seção de inscrição -->
         <section id="inscricao" class="form-section">
             <div class="container">
-                <h2>Inscreva-se Agora!</h2>
+                <h2>Faça sua Inscrição!</h2>
                 <p><strong>Atenção:</strong> O pagamento online não é obrigatório. Você também pode fazer o pagamento e o cadastro diretamente na igreja com um pastor ou diácono.</p>
-                <div class="inscricao-container">
-                    <div class="inscricao-imagem">
-                        <img src="preco do crachá.jpg" alt="Preço do Crachá do Evento">
-                    </div>
-        
-                    <form action="processar_inscricao.php" method="POST" class="registration-form">
-                        <div class="form-group">
-                            <label for="nome">Nome Completo</label>
-                            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
-                        </div>
-                        <div class="form-group">
-                            <label for="sobrenome">Sobrenome</label>
-                            <input type="text" id="sobrenome" name="sobrenome" required placeholder="Digite seu sobrenome">
-                        </div>
-                        <div class="form-group">
-                            <label for="genero">Gênero</label>
-                            <select id="genero" name="genero" required>
-                                <option value="masculino">Masculino</option>
-                                <option value="feminino">Feminino</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="faixa_etaria">Faixa Etária</label>
-                            <select id="faixa_etaria" name="faixa_etaria" required>
-                                <option value="maior_18">Maior de 18 anos</option>
-                                <option value="15_17">De 15 a 17 anos</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="telefone1">Celular 1</label>
-                            <input type="tel" id="telefone1" name="telefone1" required placeholder="Digite o primeiro número de celular">
-                        </div>
-                        <div class="form-group">
-                            <label for="telefone2">Celular 2</label>
-                            <input type="tel" id="telefone2" name="telefone2" required placeholder="Digite o segundo número de celular">
-                        </div>
-                        <div class="form-group">
-                            <label for="pagamento">Vai pagar online?</label>
-                            <select id="pagamento" name="pagamento" required>
-                                <option value="sim">Sim</option>
-                                <option value="nao">Não</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="submit-btn">Confirmar Inscrição</button>
-                        </div>
-                    </form>
-                    
-        
+                
+                <!-- Centralizando o botão de inscrição -->
+                <div class="button-container">
+                    <a href="https://app.jotform.com/243557346000652" target="_blank">
+                        <button class="submit-btn">Fazer Inscrição</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Encontro com Deus 2K25 - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

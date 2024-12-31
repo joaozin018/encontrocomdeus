@@ -297,19 +297,39 @@ nav ul li a:hover {
     transition: background-color 0.3s;
 }
 
-.form-group button:hover {
-    background-color: #34495e;
-}
-/* Estilo para o link do Instagram */
-.instagram-link {
-    color: #fff;  /* Cor branca */
-    font-size: 20px;  /* Tamanho do ícone */
-    text-decoration: none;  /* Remove o sublinhado */
-    padding: 10px;  /* Espaço ao redor do ícone */
-    border-radius: 5px;  /* Cantos arredondados */
-    transition: background-color 0.3s ease;
+/* Estiliza a seção de inscrição */
+#inscricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Faz a altura da seção ser 100% da altura da janela */
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
 }
 
-.instagram-link:hover {
-    background-color: #E4405F;  /* Cor de fundo do Instagram */
+.container {
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Estilo do botão */
+.submit-btn {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #45a049; /* Cor de fundo do botão quando estiver em hover */
+}
+
+/* Container do botão (centraliza o botão) */
+.button-container {
+    text-align: center;
 }

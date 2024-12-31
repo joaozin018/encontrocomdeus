@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $whatsapp_number = "5521969632153";
     
     // Criar o link do WhatsApp
-    $whatsapp_url = "https://wa.me/5521969632153?text=$encoded_message";
+    $whatsapp_url = "https://wa.me/21969632153?text=$encoded_message";
     
     // Redirecionar para o WhatsApp
     header("Location: $whatsapp_url");

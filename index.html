@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontro com Deus 2K25 - Inscrições Abertas</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link para o Font Awesome (para usar o ícone do Instagram) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Logo ou imagem do evento -->
+            <div class="logo">
+                <!-- Aqui você pode adicionar o logo -->
+            </div>
+            <h1>Encontro com Deus 2K25</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre o Evento</a></li>
+                    <li><a href="#inscricao">Inscreva-se</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <!-- Link para o Instagram -->
+                    <li><a href="https://www.instagram.com/projetandofamiliasoficial?igsh=OHFzcXhrMnY2Z2tl" target="_blank" class="instagram-link"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção sobre o evento -->
+        <section id="sobre" class="info-section">
+            <div class="container">
+                <!-- Imagem acima da descrição do evento -->
+                <div class="image-container">
+                    <img src="encontro-com-deus-2025.jpg" alt="Imagem do Encontro com Deus 2K25">
+                </div>
+                <h2>Sobre o Encontro</h2>
+                <p>O <strong>Encontro com Deus 2K25</strong> é uma oportunidade única para renovar sua fé, fortalecer sua caminhada cristã e conectar-se com outros irmãos. O evento ocorrerá em uma data especial, com palestras, orações e momentos de comunhão.</p>
+                <p>Prepare-se para viver uma experiência transformadora!</p>
+            </div>
+        </section>
+
+        <!-- Seção de inscrição -->
+        <section id="inscricao" class="form-section">
+            <div class="container">
+                <h2>Inscreva-se Agora!</h2>
+                <p>Preencha o formulário abaixo para garantir sua vaga no Encontro com Deus 2K25. Não perca essa oportunidade única!</p>
+
+                <div class="inscricao-container">
+                    <!-- Imagem do preço antes do formulário -->
+                    <div class="inscricao-imagem">
+                        <img src="preco do crachá.jpg" alt="Preço do Crachá do Evento">
+                    </div>
+
+                    <form action="enviar_email.php" method="POST" class="registration-form">
+                        <!-- Campos do Formulário -->
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="sobrenome">Sobrenome</label>
+                            <input type="text" id="sobrenome" name="sobrenome" required placeholder="Digite seu sobrenome">
+                        </div>
+                        <div class="form-group">
+                            <label for="genero">Gênero</label>
+                            <select id="genero" name="genero" required>
+                                <option value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="faixa_etaria">Faixa Etária</label>
+                            <select id="faixa_etaria" name="faixa_etaria" required>
+                                <option value="maior_18">Maior de 18 anos</option>
+                                <option value="15_17">De 15 a 17 anos</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone1">Celular 1</label>
+                            <input type="tel" id="telefone1" name="telefone1" required placeholder="Digite o primeiro número de celular">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone2">Celular 2</label>
+                            <input type="tel" id="telefone2" name="telefone2" required placeholder="Digite o segundo número de celular">
+                        </div>
+                        <div class="form-group">
+                            <label for="pagamento">Vai pagar online?</label>
+                            <select id="pagamento" name="pagamento" required>
+                                <option value="sim">Sim</option>
+                                <option value="nao">Não</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="submit-btn">Enviar Inscrição</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Igreja Projetando Famílias - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
